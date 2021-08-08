@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RobotBot: Регистрация</title>
+    <link rel="stylesheet" href="css/registration.css">
+</head>
+<body>
+    <form action="" class="form">
+        <div class="form-head">
+            <a href="index.html" class="btn-back">
+                < 
+            </a>
+                <h3 class="form-title">
+                    Заявка на вступление
+                </h3>
+        </div>
+        <div class="form-body">
+            <input type="text" placeholder="Имя" name="f-name" class="f-name">
+            <input type="text" placeholder="Фамилия" name="s-name" class="s-name">
+            <p class="gender">
+                Ваш пол
+            </p>
+            <div class="input-wrapper">
+                <input type="radio" id="male-gender" value="male" name="gender" class="male-gender">
+            <label for="male-gender">
+                М
+            </label>
+            <input type="radio" id="female-gender" value="female" name="gender" class="female-gender">
+            <label for="female-gender">
+                Ж
+            </label>
+            </div>
+            <div class="input-wrapper">
+                <input type="checkbox" value="got-18" class="age" id="age" name="age">
+            <label for="age">
+                Мне есть 18
+            </label>
+            </div>
+            <div class="input-wrapper">
+                <label for="discipline">
+                Ваша дисциплина
+            </label>
+            <select name="discipline" id="discipline" class="discipline">
+                <option value="cs_go">
+                    CS:GO
+                </option>
+                <option value="dota_2">
+                    Dota 2
+                </option>
+                <option value="apex_legends">
+                    Apex Legends
+                </option>
+            </select>
+            </div>
+            <textarea name="comment" id="comment" cols="30" rows="10" class="comment"
+                placeholder="Дополнительная информация">
+            </textarea>
+            <button class="submit">
+                Отправить заявку
+            </button>
+        </div>
+    </form>
+</body>
+</html>
